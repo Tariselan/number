@@ -9,6 +9,9 @@ h1 {
 input {
     background-color: #EEE;
 }
+input#output {
+    width: fit-content;
+}
 
 section {
     height: 50vh;
