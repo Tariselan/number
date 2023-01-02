@@ -28,7 +28,7 @@ function convertToParts() {
         //base**(size-i)
         let x = Math.floor(number/(base**(size-i)))*(base**(size-i));
         let y = x / (base**(size-i));
-        document.getElementById('output').value +=  y + ' ';
+        document.getElementById('output').value +=  y;
         number -= x;
     }
 }
